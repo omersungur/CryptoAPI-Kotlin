@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="4dp">
+
+    <TextView
+        android:id="@+id/recyclerViewCurrencyText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Bitcoin"
+        android:layout_margin="3dp"
+        android:textColor="#0022FF">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/recyclerViewPriceText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="20.000$"
+        android:layout_margin="3dp"
+        android:textColor="#FF5722">
+
+    </TextView>
+
+</LinearLayout>
